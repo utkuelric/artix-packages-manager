@@ -97,9 +97,9 @@ def clear_screen():
 def print_header():
     clear_screen()
     print(f"{Colors.CYAN}{Colors.BOLD}")
-    print("╔════════════════════════════════════════════════╗")
+   
     print("║     Artix Linux Uygulama Mağazası              ║")
-    print("╚════════════════════════════════════════════════╝")
+ 
     print(f"{Colors.END}")
 
 def is_installed(package):
